@@ -3,3 +3,4 @@ CORS
 Cross-Origin-Resource-Sharing
 オリジン間リソース共有
 
+オリジンとは?
