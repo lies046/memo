@@ -1,3 +1,4 @@
+https://qiita.com/att55/items/2154a8aad8bf1409db2b
 CORS
 
 Cross-Origin-Resource-Sharing
