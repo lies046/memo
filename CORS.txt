@@ -16,4 +16,12 @@ Cross-Origin-Resource-Sharing
 
 CORSの必要性
 webセキュリティの重要なポリシーの一つにSame-Origin Policyがある
-これは、オリジン間のリソース共有に制限をかけるもの
+これは、オリジン間のリソース共有に制限をかけるもので、以下の脆弱性を防ぐことができる
+
+・XSS(Cross Site Scripting)
+ユーザーがサイトにアクセスすることで不正なスクリプトが実行されてしまう脆弱性
+Cookie内のセッション情報を取り出されて不正ログインされる
+
+・CSRF(Cross Site Request Forgeries)
+ユーザーが意図しない処理をwebアプリケーション上で実行される。
+ログイン中のユーザーしか投稿できない処理を勝手に行われるなど
